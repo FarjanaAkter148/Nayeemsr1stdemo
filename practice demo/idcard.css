@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+        min-height: 100vh;
+        max-width: 100vw;
+   background-image: url("pictures/dual\ shade.png");
+      }
+      
+ .overall{
+     height: 500px;
+     width: 350px;
+     position: relative;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     margin: auto;
+     border: 1px solid black;
+     border-radius: 8px;
+ }     
+.header h4{
+height: 60px;
+width: 60px;
+background-color: #F5A7A4;
+border:2px solid #986D69;
+margin: auto;
+margin-top: 10px;
+border-radius: 50%;
+padding: 10px;
+}
+.sisimpur{
+    height: 45px;
+    width: 120px;
+    background-color: #F5A7A4;
+border:2px solid #986D69;
+position:absolute;
+     top: 45px;
+     left: 115px;
+border-radius: 8px;
+display: inline-block;
+padding-top: 5px;
+}
+ .sofor{
+     height: 180px;
+     width: 180px;
+  
+     margin-top: 25px;
+     margin-left: 85px;
+    
+   }
+    .about{
+        text-transform: capitalize;
+        line-height: 1.3;
+        text-align: center;
+        padding: 30px;
+    }
+    .about h3{
+        color:#283C4E;
+    }
+   
